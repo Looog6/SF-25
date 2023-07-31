@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-email = "test@gmail.com"
-password = "password"
+email = "test@gmail.com"     # Логин показан в качестве образца, используйте актуальные данные
+password = "password"        # Пароль показан в качестве образца, используйте актуальные данные
 
 @pytest.fixture(autouse=True)
 def testing():
